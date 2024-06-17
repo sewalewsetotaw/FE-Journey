@@ -6,6 +6,70 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Hello world</h1>  
+<!-- User Registration Form -->
+<form action="">
+
+    <!-- First Name Field -->
+    <label for="firstName">First Name: </label>
+    <input type="text" name="firstName" id="firstName" placeholder="First Name" required><br>
+    
+    <!-- Last Name Field -->
+    <label for="lastName">Last Name: </label>
+    <input type="text" name="lastName" id="lastName" placeholder="Last Name" required><br>
+    
+    <!-- Age Field -->
+    <label for="age">Age: </label>
+    <input type="number" name="age" id="age" placeholder="Age" required><br>
+    
+    <!-- Gender Fields -->
+    <label for="gender">Gender: </label>
+    <label for="male">Male: </label>
+    <input type="radio" name="gender" value="male" id="male" required>
+    <label for="female">Female: </label>
+    <input type="radio" name="gender" value="female" id="female" required><br>
+    
+    <!-- Phone Number Field -->
+    <label for="phoneNumber">Phone Number:</label>
+    <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="Phone Number" pattern="[0-9]{10}" required><br>
+
+    <!-- Address Field -->
+    <label for="address">Address:</label>
+    <input type="text" name="address" id="address" placeholder="Address" required><br>
+    
+    <!-- Date of Birth Fields -->
+    <label for="dateOfBirth">Date of Birth:</label>
+    <input type="date" name="dateOfBirth" id="dateOfBirth"> <br>
+
+    <!-- Email Field -->
+    <label for="email">Email: </label>
+    <input type="email" name="email" id="email" placeholder="Email" required><br>
+    
+    <!-- Password Field -->
+    <label for="password">Password: </label>
+    <input type="password" name="password" placeholder="Password" id="password" required><br>
+    
+    <!--Confirm Password Field-->
+    <label for="confirmPassword">Confirm Password:</label>
+    <input type="password" name="confirmPassword" placeholder="Confirm Password" id="confirmPassword" required> <br>
+    
+    <!-- Department Field -->
+    <label for="department">Department:</label>
+    <select name="department" id="department" required>
+        <option value="Amharic">Amharic</option>
+        <option value="Mathematics">Mathematics</option>
+        <option value="English">English</option>
+        <option value="Geography">Geography</option>
+    </select><br>
+    <!-- Subscribe Checkbox -->
+    <label for="subscribe">
+        <input type="checkbox" name="subscribe" id="subscribe" required> I provide the right information
+    </label><br>
+    <!-- Submit Button -->
+    <input type="submit" name="submit" value="Submit">
+</form>
+
+<table></table>    
+<ul></ul>
+<ol></ol>
 </body>
 </html>
